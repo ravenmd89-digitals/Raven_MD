@@ -1,0 +1,1 @@
+module.exports={name:'autoreacts',async execute({args,reply,setSetting}){const v=(args[0]||'').toLowerCase();if(!['on','off'].includes(v))return reply('Use .autoreacts on/off');await setSetting('autoreacts',v==='on');return reply('Auto reactions '+(v==='on'?'enabled ❤️💕🥰🔥💯':'disabled'));}};

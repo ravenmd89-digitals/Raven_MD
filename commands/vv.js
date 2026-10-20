@@ -1,0 +1,1 @@
+module.exports={name:'vv',async execute({reply}){await reply('VV command is a placeholder for a later implementation.');}};

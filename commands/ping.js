@@ -1,0 +1,1 @@
+module.exports={name:'ping',async execute({reply}){await reply(`╭━━〔 ⚡ RAVEN PING ⚡ 〕━━╮\n┃ 🟢 ONLINE\n╰━━━━━━━━━━━━━━━━━━╯`);}};

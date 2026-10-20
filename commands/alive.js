@@ -1,0 +1,1 @@
+module.exports={name:'alive',async execute({reply,config}){await reply(`🦅 RAVEN MD BOT ONLINE\n👑 Owner: ${config.ownerName}\n🛠 Developer: ${config.developer}`);}};

@@ -1,0 +1,1 @@
+module.exports={name:'owner',async execute({reply,config}){await reply(`👑 ${config.ownerName}\n📱 +${config.ownerNumber}\n🛠 ${config.developer}`);}};

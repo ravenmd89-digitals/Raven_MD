@@ -1,0 +1,1 @@
+module.exports={name:'anticall',async execute({args,reply,setSetting}){const v=(args[0]||'').toLowerCase();if(!['on','off'].includes(v))return reply('Use .anticall on/off');await setSetting('anticall',v==='on');return reply('Anti-call setting '+(v==='on'?'enabled':'disabled'));}};

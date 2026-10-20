@@ -1,0 +1,1 @@
+module.exports={name:'antidelete',async execute({args,reply,setSetting}){const v=(args[0]||'').toLowerCase();if(!['on','off'].includes(v))return reply('Use .antidelete on/off');await setSetting('antidelete',v==='on');return reply('Anti-delete setting '+(v==='on'?'enabled':'disabled'));}};
